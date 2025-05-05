@@ -86,7 +86,6 @@
     top: 40%;
     width: 70px;
     height: 70px;
-    position: absolute;
     background-color: #0BCEAF;
 }
 .textarea{
@@ -94,6 +93,29 @@
 }
 .greenn{
     background-color: #0BCEAF;
+}
+
+.tota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+    width: 0px;
+    background-color: #0BCEAF;
+    left: 50%;
+    top: 50%;
+    font-size: 0px;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease;
+    color: white;
+}
+
+.tota-main:hover .tota{
+    color: white;
+    font-size: 70px;
+    height: 200px;
+    width: 200px;
+    transition: 1s;
 }
 
 
