@@ -8,6 +8,9 @@
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
+      </style>
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
 </head>
@@ -79,7 +82,7 @@
         <div class="col-md-7">
           <div class="   ">
             <h3 class="fs-1 text-white ">I'm</h3>
-            <h1 class="h1 text-white">Kate Winslet</h1>
+            <h1 class="h1 text-white text-uppercase ">Kate Winslet</h1>
             <div class=" pt-5">
               <a class="text-decoration-none rounded-pill download  p-2 px-4 fs-4 me-4 " href="">Download CV</a>
               <a class="text-decoration-none   downloade fs-1 text-white" href=""><i
@@ -95,30 +98,34 @@
 
   </section>
   <section id="about " class="about py-5 container-fluid">
-    <div class="container">
-      <h1 style="font-size: 50px;" class="text-center pt-5 fs-1 fw-bold mb-5 free">ABOUT ME</h1>
-      <div class="row d-flex align-items-center justify-content-center; ">
-        <div class="col-md-6">
+    <div class="container overflow-hidden">
+      <div class=" position-relative  mb-5 d-flex justify-content-center align-items-center ">
+        <h1 style="font-size: 100px;" class="text-center pt-5 font ">ABOUT </h1>
+        <h1 style="font-size: 50px;top: 60px; "  class="   free  fw-bold  position-absolute   ">ABOUT ME</h1>
+      </div>
+      
+      <div class="row pt-5 ">
+        <div class="col-md-5">
           <div>
             <img class="rounded img-fluid w-100 " src="./images/about.jpg" alt="">
           </div>
         </div>
 
-        <div class="col-lg-6 ">
+        <div class="col-md-7 pt-4 ">
           <div>
-            <h2 class="fw-bold fs-2 folio mt-5">
-              UI/UX Designer & Web Developer</h2>
-            <p class="fs-5">Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum
+            <h2 class="fw-bold fs-2 folio  mb-4">UI/UX Designer & Web Developer</h2>
+
+            <p class="fs-5 text-secondary fw-medium">Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum
               est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet dolor stet lorem
               diam dolor justo et dolor dolor dolor</p>
           </div>
           <div class="row">
             <div class="col-md-6 pb-5">
               <div class="">
-                <h6 class="fs-5  pb-3">Name:<span class="text-secondary"> Kate Winslet</span></h6>
-                <h6 class="fs-5 pb-3">Degree:<span class="text-secondary"> Master</span></h6>
-                <h6 class="fs-5 pb-3">Phone:<span class="text-secondary"> +012 345 6789 </span></h6>
-                <h6 class="fs-5 pb-3">Address:<span class="text-secondary"> 123 Street, New York, USA</span></h6>
+                <h6 class="fs-5  pb-3 folioo">Name:<span class="text-secondary"> Kate Winslet</span></h6>
+                <h6 class="fs-5 pb-3 folioo">Degree:<span class="text-secondary"> Master</span></h6>
+                <h6 class="fs-5 pb-3 folioo">Phone:<span class="text-secondary"> +012 345 6789 </span></h6>
+                <h6 class="fs-5 pb-3 folioo">Address:<span class="text-secondary"> 123 Street, New York, USA</span></h6>
 
               </div>
               <div class="">
@@ -128,10 +135,10 @@
             </div>
             <div class="col-md-6 ">
               <div class="">
-                <h6 class="fs-5  pb-3 ">Birthday:<span class="text-secondary"> 1 April 1990</span></h6>
-                <h6 class="fs-5 pb-3">Experience:<span class="text-secondary"> 10 Years</span></h6>
-                <h6 class="fs-5 pb-3">Email:<span class="text-secondary"> info@example.com </span></h6>
-                <h6 class="fs-5 pb-3">Freelance:<span class="text-secondary"> Available</span></h6>
+                <h6 class="fs-5  pb-3 folioo   ">Birthday:<span class="text-secondary"> 1 April 1990</span></h6>
+                <h6 class="fs-5 pb-3 folioo">Experience:<span class="text-secondary"> 10 Years</span></h6>
+                <h6 class="fs-5 pb-3 folioo">Email:<span class="text-secondary"> info@example.com </span></h6>
+                <h6 class="fs-5 pb-3 folioo">Freelance:<span class="text-secondary"> Available</span></h6>
 
               </div>
             </div>
@@ -147,8 +154,11 @@
   </section>
 
   <section id="quaity" class="quality mt-5 pt-5 pb-5">
-    <div class="container">
-      <h1 style="font-size: 50px;" class="pt-5 text-center fs-1 text-uppercase free pb-5">Education & Expericence</h1>
+    <div class="container overflow-hidden">
+      <div class=" position-relative mb-5 d-flex justify-content-center align-items-center ">
+        <h1 style="font-size: 150px;" class="text-center pt-5 font ">QUALITY </h1>
+        <h1   class=" position-absolute     free  fw-bold  text-uppercase">Education & Expericence</h1>
+      </div>
       <div class="row">
         <div class="col-md-6">
           <div>
@@ -254,9 +264,12 @@
 
 
   <section id="skills" class="skills pt-5 pb-5 ">
-    <div class="container pt-5">
+    <div class="container pt-5 overflow-hidden">
       <div>
-        <h1 style="font-size: 50px;" class="text-center free fw-bolder  text-uppercase  pb-5">My Skills</h1>
+        <div class="mb-5 d-flex justify-content-center align-items-center ">
+          <h1 style="font-size: 100px;" class="text-center pt-5 font position-relative">SKILLS </h1>
+          <h1 style="font-size: px;"  class="   free position-absolute fw-bold pt-2 text-uppercase">My skills</h1>
+        </div>
 
         <div class="row">
           <div class="col-md-6 pe-5 pb-4">
@@ -321,8 +334,11 @@
   </section>
 
   <section id="service" class="service pt-5 pb-5">
-    <div class="container pt-5">
-      <h1 style="font-size: 50px;" class="pt-5 text-center free fw-bold text-uppercase pb-5">My  Services </h1>
+    <div class="container pt-5 overflow-hidden">
+      <div class="mb-5 d-flex justify-content-center align-items-center overflow-auto">
+        <h1 style="font-size: 150px;" class="text-center pt-5 font position-relative">SERVICE </h1>
+        <h1 style="font-size: 70px;"  class="   free position-absolute fw-bold pt-2 text-uppercase">My services</h1>
+      </div>
       <div class="row pb-5">
         <div class="col-md-4 pb-4 pb-md-0">
           <div >
@@ -451,52 +467,55 @@
 
   <section id="portfolio" class="portfolio pt-5 pb-5">
     <div class="container pt-5 overflow-hidden">
-         <h1 style="font-size: 50px;" class="free pt-5 text-center fw-bold pb-5 text-uppercase">My Portfolio</h1>
+      <div class="mb-5 d-flex justify-content-center align-items-center overflow-auto">
+        <h1 style="font-size: 150px;" class="text-center pt-5 font position-relative">GALLERY </h1>
+        <h1 style="font-size: 50px;"  class="   free position-absolute fw-bold pt-2 text-uppercase">My portfolio</h1>
+      </div>
          <div class="d-flex justify-content-center gap-3  pt-5 mb-5 overflow-auto">
-          <a  class="rounded-pill px-4 py-2 all fs-4 text-decoration-none">ALL</a>
-          <a  class="rounded-pill px-4 py-2 hire fs-4 text-decoration-none">Desgin</a>
-          <a  class="rounded-pill px-4 py-2 hire fs-4 text-decoration-none">Development</a>
-          <a  class="rounded-pill px-4 py-2 hire fs-4 text-decoration-none">Marketing</a>
+          <a  class="rounded-pill px-4 py-2 all fs-5 text-decoration-none">ALL</a>
+          <a  class="rounded-pill px-4 py-2 hire fs-5 text-decoration-none">Desgin</a>
+          <a  class="rounded-pill px-4 py-2 hire fs-5 text-decoration-none">Development</a>
+          <a  class="rounded-pill px-4 py-2 hire fs-5 text-decoration-none">Marketing</a>
          </div>
 
          <div class="row pb-4">
            <div class="col-md-4 pb-4 ">
-            <div class="  position-relative tota-main">
+            <div class="  position-relative diving">
              <img class="rounded w-100" src="./images/portfolio-1.jpg" alt="">
-             <div class="fw position-absolute tota">+</div>
+             <div class="fw position-absolute div">+</div>
             </div>
            </div>
            <div class="col-md-4 pb-4 ">
-            <div class="  position-relative tota-main">
+            <div class="  position-relative diving">
              <img class="rounded w-100" src="./images/portfolio-2 (1).jpg" alt="">
-             <div class="fw position-absolute tota">+</div>
+             <div class="fw position-absolute div">+</div>
             </div>
            </div>
            <div class="col-md-4">
-            <div class="  position-relative tota-main">
+            <div class="  position-relative diving">
              <img class="rounded w-100" src="./images/portfolio-3.jpg" alt="">
-             <div class="fw position-absolute tota">+</div>
+             <div class="fw position-absolute div">+</div>
             </div>
            </div>
           
         </div>
         <div class="row">
           <div class="col-md-4 pb-4">
-           <div class="  position-relative tota-main ">
+           <div class="  position-relative diving ">
             <img class="rounded w-100" src="./images/portfolio-4.jpg" alt="">
-            <div class="fw position-absolute tota">+</div>
+            <div class="fw position-absolute div">+</div>
            </div>
           </div>
           <div class="col-md-4 pb-4">
-           <div class="  position-relative tota-main ">
+           <div class="  position-relative diving ">
             <img class="rounded w-100" src="./images/portfolio-5.jpg" alt="">
-            <div class="fw position-absolute tota">+</div>
+            <div class="fw position-absolute div">+</div>
            </div>
           </div>
           <div class="col-md-4">
-           <div class="  position-relative tota-main">
+           <div class="  position-relative diving">
             <img class="rounded w-100" src="./images/portfolio-6.jpg" alt="">
-            <div class="fw position-absolute tota">+</div>
+            <div class="fw position-absolute div">+</div>
            </div>
           </div>
          
@@ -511,8 +530,11 @@
 
 
   <section id="clients" class="clients pt-5 pb-5">
-    <div class="container">
-      <h1 style="font-size: 50px;" class="text-uppercase pt-5 free fw-bold text-center">Clients Say</h1>
+    <div class="container overflow-hidden">
+      <div class="mb-5 d-flex justify-content-center align-items-center overflow-auto">
+        <h1 style="font-size: 150px;" class="text-center pt-5 font position-relative">REVIEW </h1>
+        <h1 style="font-size: 50px;"  class="   free position-absolute fw-bold pt-2 text-uppercase">Client say</h1>
+      </div>
       <div class="row">
         <div class="col-md-2">
 
@@ -568,15 +590,18 @@
   </section>
 
   <section id="blogs" class="blog pt-5 pb-5"> 
-    <div class="container">
-      <h1 style="font-size: 50px;" class=" free fw-bold pt-5 pb-5 text-center text-uppercase">Latest Blog</h1>
+    <div class="container overflow-hidden">
+   <div class="mb-5 d-flex justify-content-center align-items-center overflow-auto">
+        <h1 style="font-size: 150px;" class="text-center pt-5 font position-relative">BLOG </h1>
+        <h1 style="font-size: 50px;"  class="   free position-absolute fw-bold pt-2 text-uppercase">latest blog</h1>
+      </div>
       <div class="row">
         <div class="col-md-4 pb-5 pb-md-0">
           <div>
              <div class="position-relative">
               <img class="w-100" src="./images/blog-1 (1).jpg" alt="">
-                <div class="blogi text-center rounded-circle   ">
-                      <h6 class=" pt-2 fs-5" >01 </h6>
+                <div class="    blogi text-center rounded-circle  ">
+                      <h6 class=" pt-2 fs-5" style="margin: 0%;">01 </h6>
                       <p class="text-white">JAN</p> 
                 </div>
              </div>
@@ -597,7 +622,7 @@
              <div class="position-relative">
               <img class="w-100" src="./images/blog-2.jpg" alt="">
                 <div class="blogi text-center rounded-circle   ">
-                      <h6 class=" pt-2 fs-5" >01 </h6>
+                      <h6 class=" pt-2 fs-5"style="margin: 0%;" >01 </h6>
                       <p class="text-white">JAN</p> 
                 </div>
              </div>
@@ -618,7 +643,7 @@
              <div class="position-relative">
               <img class="w-100" src="./images/blog-3.jpg" alt="">
                 <div class="blogi text-center rounded-circle   ">
-                      <h6 class=" pt-2 fs-5" >01 </h6>
+                      <h6 class=" pt-2 fs-5" style="margin: 0%;">01 </h6>
                       <p class="text-white">JAN</p> 
                 </div>
              </div>
@@ -643,10 +668,12 @@
   </section>
 
   <section id="contacts" class="contact pt-5 pb-5">
-    <div class="container">
-      <h1 style="font-size: 50px;" class=" free fw-bold pt-5 pb-5 text-center text-uppercase">Contact Me</h1>
-
-      <div class="row">
+    <div class="container overflow-hidden">
+      <div class="mb-5 d-flex justify-content-center align-items-center overflow-auto">
+        <h1 style="font-size: 150px;" class="text-center pt-5 font position-relative">CONTACT </h1>
+        <h1 style="font-size: 50px;"  class="   free position-absolute fw-bold pt-2 text-uppercase">Contact Me</h1>
+      </div>
+      <div class="row ">
         <div class="col-md-2">
 
         </div>
@@ -679,7 +706,7 @@
               </div>
             </div>
 
-            <div class="mt-5 text-center">
+            <div class="mt-5 text-center mb-5">
               <a href="" class=" text-decoration-none  rounded-pill  free navbtn py-2 px-4 ">Send Message</a>
               <!-- <button type="button"
                 class="btn btn-success text-white px-4 rounded-pill ">Send Message</button></div> -->
